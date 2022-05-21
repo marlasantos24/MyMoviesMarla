@@ -35,8 +35,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import coil.compose.rememberImagePainter
-import com.example.mymoviesHP.ui.screens.detail.DetailScreen
-import com.example.mymoviesHP.ui.theme.MyMoviesHPTheme
+import com.marla.mymoviesms.ui.screens.detail.DetailScreen
+import com.marla.mymoviesms.ui.theme.MyMoviesMsTheme
+import com.marla.mymoviesms.ui.MyMoviesApp
+import com.marla.mymoviesms.ui.screens.main.MainScreen
 
 @ExperimentalFoundationApi
 class MainActivity : ComponentActivity() {
